@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    text-align: center;
+}
+
+/* CABEÇALHO GERAL */
+
+header {
+    background: #ebf5ff;
+}
+
+.header-box-main {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* PRIMEIRA PARTE DO CABEÇALHO */
+
+.header-box-1 {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width: 240px;
+}
+
+.header-title {
+    font-size: 4.2em;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.header-title-sec {
+    color: #4d4dff;
+    font-size: 1.3em;
+}
+
+/* SEGUNDA PARTE DO CABEÇALHO */
+
+.link-header-nav {
+    display: inline;
+    padding: 24px;
+}
+
+.link-header-nav a {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #4d4dff;
+    padding: 12px;
+    transition: 0.7s;
+}
+
+.link-header-nav a:hover {
+    background: #4d4dff;
+    color: #ebf5ff;
+    padding: 12px;
+    border-radius: 7px;
+}
+
+/* Main Box */
+
+.main-box {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.main-box-left, .main-box-right {
+    width: 40%;
+    margin: 10px auto;
+}
+
+.title-main-box {
+    font-size: 3.2em;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.sec-main-box {
+    font-size: 1.2em;
+    color: #4d4dff;
+}
+
+.text-main-box {
+    font-size: 1.1em;
+    margin-bottom: 12px;
+}
+
+.img-main-box {
+    width: 92%;
+    max-width: 580px;
+}
+
+.btn-main-box {
+    padding: 15px;
+    font-size: 1.3em;
+    border-radius: 4px;
+    background: #4d4dff;
+    border: none;
+    color: #fff;
+    margin: 15px;
+    transition: 0.4s;
+}
+
+.btn-main-box:hover {
+    filter: brightness(1.1);
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+/* Rodapé */
+
+.rodape {
+    margin-top: 25px;
+}
+
+.text-credit {
+    font-weight: 500;
+    opacity: 0.9;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #4d4dff;
+}
+
+.rodape a:hover {
+    text-decoration: underline double;
+}
+
+/* Responsivo (Celular) */
+
+@media screen and (max-width: 650px) and (min-width: 300px) {
+    
+    header {
+        padding-bottom: 20px;
+    }
+
+    .header-box-1 {
+        display: block;
+        width: 100%;
+    }
+
+    .header-title {
+        width: 100%;
+        font-size: 3.7em;
+        margin : 0;
+        text-align: center;
+    }
+
+    .link-header-nav {
+        display: inline;
+        padding: 2px;
+    }
+    
+    .link-header-nav a {
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        color: #4d4dff;
+        padding: 7px;
+        transition: 0.7s;
+    }
+    
+    .link-header-nav a:hover {
+        background: #4d4dff;
+        color: #fcfcfc;
+        padding: 7px;
+        border-radius: 7px;
+    }
+
+    .main-box {
+        display: block;
+    }
+
+    .main-box-right {
+        width: 100%;
+    }
+
+    .main-box-left {
+        width: 100%;
+    }
+
+    .header-box-main {
+        width: 100%;
+        display: block;
+        align-items: center;
+    }
+
+    .title-main-box {
+        margin-top: 50px;
+        font-size: 2.5em;
+    }
+
+    .rodape {
+        margin-bottom: 30px;
+    }
+}
+
+/* Responsivo (Tablet) */
+
+@media screen and (max-width: 1360px) and (min-width: 651px) {
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    .header-box-1 {
+        display: block;
+        width: 100%;
+    }
+
+    .header-title {
+        width: 100%;
+        margin: 0;
+        font-size: 3.7em;
+        text-align: center;
+    }
+
+    .link-header-nav {
+        display: inline;
+        padding: 20px;
+    }
+    
+    .link-header-nav a {
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        color: #4d4dff;
+        padding: 12px;
+        transition: 0.7s;
+    }
+    
+    .link-header-nav a:hover {
+        background: #4d4dff;
+        color: #fcfcfc;
+        padding: 12px;
+        border-radius: 7px;
+    }
+
+    .main-box {
+        display: block;
+    }
+
+    .main-box-right {
+        width: 100%;
+    }
+
+    .main-box-left {
+        width: 100%;
+    }
+
+    .header-box-main {
+        width: 100%;
+        display: block;
+        align-items: center;
+    }
+
+    .title-main-box {
+        margin-top: 80px;
+        font-size: 3.5em;
+    }
+
+    .rodape {
+        margin-bottom: 30px;
+    }
+}

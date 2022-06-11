@@ -174,14 +174,12 @@ header {
         font-weight: 500;
         color: #4d4dff;
         padding: 7px;
-        transition: 0.7s;
     }
     
     .link-header-nav a:hover {
-        background: #4d4dff;
-        color: #fcfcfc;
-        padding: 7px;
-        border-radius: 7px;
+        text-decoration: underline;
+        background-color: #ebf5ff;
+        color: #4d4dff;
     }
 
     .main-box {
@@ -243,14 +241,12 @@ header {
         font-weight: 500;
         color: #4d4dff;
         padding: 12px;
-        transition: 0.7s;
     }
     
     .link-header-nav a:hover {
-        background: #4d4dff;
-        color: #fcfcfc;
-        padding: 12px;
-        border-radius: 7px;
+        text-decoration: underline;
+        background-color: #ebf5ff;
+        color: #4d4dff;
     }
 
     .main-box {

@@ -5,7 +5,7 @@ Tecnologias usadas: HTML e CSS
 
 Data do Projeto: 09/06/2022 (DD/MM/YYYY)
 
-# Inglês (EN)
+# English (EN)
 Self-inspired (Responsive) project using basic knowledge acquired in my daily studies.
 
 Technologies used: HTML and CSS
